@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: ibm850 -*-
 
 
@@ -228,14 +229,15 @@ def run(target, source, env):
 		text+=make_version(template,i,5,True,True)
 		text+=make_version(template_typed,i,5,True,True)
 
-
-	f=open(target[0].path,"w")
+	if isinstance(target, str):
+		path = target
+	else:
+		path = target[0].path
+	f=open(path,"w")
 	f.write(text)
 	f.close()
 
-		
-			
-		
-		
-		
+if __name__ == '__main__':
+	import sys
+	run(sys.argv[1], None, None)
 
