@@ -26,3 +26,7 @@ if get_option('webp')
   subdir('webp')
 endif
 
+if get_option('dds')
+  subdir('dds')
+endif
+

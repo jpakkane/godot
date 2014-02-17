@@ -5,4 +5,5 @@ option('squish', type : 'boolean', value : true)
 option('theora', type : 'boolean', value : true)
 option('speex', type : 'boolean', value : true)
 option('webp', type : 'boolean', value : true)
+option('dds', type : 'boolean', value : true)
 
