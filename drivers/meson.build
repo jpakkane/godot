@@ -14,3 +14,7 @@ if get_option('squish')
   subdir('squish')
 endif
 
+if get_option('theora')
+  subdir('theora')
+endif
+
