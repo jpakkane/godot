@@ -22,3 +22,7 @@ if get_option('speex')
   subdir('speex')
 endif
 
+if get_option('webp')
+  subdir('webp')
+endif
+
