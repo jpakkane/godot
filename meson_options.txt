@@ -1,2 +1,3 @@
 option('jpg', type : 'boolean', value : true)
+option('png', type : 'boolean', value : true)
 
