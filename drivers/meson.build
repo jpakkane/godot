@@ -18,3 +18,7 @@ if get_option('theora')
   subdir('theora')
 endif
 
+if get_option('speex')
+  subdir('speex')
+endif
+
