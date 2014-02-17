@@ -10,3 +10,7 @@ if get_option('vorbis')
   subdir('vorbis')
 endif
 
+if get_option('squish')
+  subdir('squish')
+endif
+

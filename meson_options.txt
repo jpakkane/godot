@@ -1,4 +1,5 @@
 option('jpg', type : 'boolean', value : true)
 option('png', type : 'boolean', value : true)
 option('vorbis', type : 'boolean', value : true)
+option('squish', type : 'boolean', value : true)
 
