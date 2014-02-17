@@ -30,3 +30,7 @@ if get_option('dds')
   subdir('dds')
 endif
 
+if get_option('builtin_zlib')
+  subdir('builtin_zlib')
+endif
+

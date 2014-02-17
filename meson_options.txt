@@ -6,4 +6,5 @@ option('theora', type : 'boolean', value : true)
 option('speex', type : 'boolean', value : true)
 option('webp', type : 'boolean', value : true)
 option('dds', type : 'boolean', value : true)
+option('builtin_zlib', type : 'boolean', value : true)
 
