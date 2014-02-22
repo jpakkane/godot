@@ -3,6 +3,7 @@ generated_inc = bindgen.process('method_bind.h')
 
 subdir('os')
 subdir('math')
+subdir('io')
 
 core_src = ['array.cpp',
 'color.cpp',
