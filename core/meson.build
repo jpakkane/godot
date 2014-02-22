@@ -2,6 +2,7 @@ bindgen = generator(python_int, outputs : '@BASENAME@.inc', arguments : ['@SOURC
 generated_inc = bindgen.process('method_bind.h')
 
 subdir('os')
+subdir('math')
 
 core_src = ['array.cpp',
 'color.cpp',
