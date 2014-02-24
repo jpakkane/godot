@@ -1,0 +1,11 @@
+#ifndef VERSION_H
+#define VERSION_H
+
+#mesondefine VERSION_SHORT_NAME
+#mesondefine VERSION_NAME
+#mesondefine VERSION_MAJOR
+#mesondefine VERSION_MINOR
+#mesondefine VERSION_REVISION
+#mesondefine VERSION_STATUS
+
+#endif
